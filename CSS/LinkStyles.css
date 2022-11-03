@@ -5,13 +5,13 @@
 }
 
 #back{
-    background-color: lightsteelblue;
+    background-color: palegoldenrod;
 }
 
 #git{
     position: absolute;
     width: 75px;
-    top: 70px;
+    top: 80px;
     animation-duration: 1s;
     animation-name: move;
     animation-timing-function: ease-in-out;
@@ -20,19 +20,20 @@
 
 #gitText{
     position: absolute;
-    top: 70px;
+    top: 80px;
     left: 100px;
     font-family: Arial, sans-serif;
     font-size: x-large;
     animation-duration: 1s;
     animation-name: fadeIn;
     animation-timing-function: ease-in-out;
+    color: orangered;
 }
 
 #link{
     position: absolute;
     width: 75px;
-    top: 160px;
+    top: 170px;
     animation-duration: 1s;
     animation-name: move;
     animation-timing-function: ease-in-out;
@@ -41,13 +42,38 @@
 
 #linkText{
     position: absolute;
-    top: 160px;
+    top: 170px;
     left: 100px;
     font-family: Arial, sans-serif;
     font-size: x-large;
     animation-duration: 1s;
     animation-name: fadeIn;
     animation-timing-function: ease-in-out;
+    color: orangered;
+}
+
+#oLinks{
+    position: absolute;
+    font-family: Arial, sans-serif;
+    font-size: xx-large;
+    color: orangered;
+    top: 0px;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-name: fadeIn;
+}
+
+#prev{
+    position: absolute;
+    font-family: Arial, sans-serif;
+    font-size: x-large;
+    top: 270px;
+    left: 10px;
+    color: orangered;
+    animation-duration: 1s;
+    animation-name: fadeIn;
+    animation-timing-function: ease-in-out;
+
 }
 
 @keyframes move {

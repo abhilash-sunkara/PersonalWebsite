@@ -1,0 +1,65 @@
+#back{
+    background-color: lightgreen;
+}
+
+#vortex1{
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    width: 300px;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-name: combineFM;
+}
+
+#vortexLink{
+    position: absolute;
+    top: 100px;
+    left:350px;
+    font-family: Arial, sans-serif;
+    font-size: x-large;
+    color: darkgreen;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-name: fadeIn;
+}
+
+#OsExpl{
+    position: absolute;
+    top : 20px;
+    left : 20px;
+    font-family: Arial, sans-serif;
+    font-size: large;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-name: fadeIn;
+}
+
+#prev{
+    position: absolute;
+    left: 20px;
+    top: 300px;
+    font-family: Arial, sans-serif;
+    font-size: x-large;
+    color: darkgreen;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-name: fadeIn;
+}
+
+@keyframes move {
+    0% {left: -100px}
+    100% {left : 20px}
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+@keyframes combineFM {
+    0% {opacity: 0}
+    0% {left: -100px}
+    100% {opacity: 1}
+    100% {left: 20px}
+}
