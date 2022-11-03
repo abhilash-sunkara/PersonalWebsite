@@ -1,0 +1,20 @@
+#back{
+    background-color: lightsteelblue;
+}
+
+#name{
+    font-family: Arial, sans-serif;
+    color: blue;
+    position: absolute;
+    left: 20px;
+    opacity: 0.5;
+}
+
+#linkHyper{
+    font-family: Arial, sans-serif;
+    color: blue;
+    position: absolute;
+    left: 20px;
+    opacity: 0.5;
+    top: 60px;
+}
