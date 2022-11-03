@@ -1,0 +1,68 @@
+#name{
+    font-family: Arial, sans-serif;
+    color: blue;
+    position: absolute;
+    left: 20px;
+    opacity: 0.5;
+}
+
+#animCont{
+    position: relative;
+    border-color: aliceblue;
+}
+
+#back{
+    background-color: lightsteelblue;
+}
+
+#git{
+    position: absolute;
+    width: 75px;
+    top: 70px;
+    animation-duration: 1s;
+    animation-name: move;
+    animation-timing-function: ease-in-out;
+    left: 10px;
+}
+
+#gitText{
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    font-family: Arial, sans-serif;
+    font-size: x-large;
+    animation-duration: 1s;
+    animation-name: fadeIn;
+    animation-timing-function: ease-in-out;
+}
+
+#link{
+    position: absolute;
+    width: 75px;
+    top: 160px;
+    animation-duration: 1s;
+    animation-name: move;
+    animation-timing-function: ease-in-out;
+    left: 10px;
+}
+
+#linkText{
+    position: absolute;
+    top: 160px;
+    left: 100px;
+    font-family: Arial, sans-serif;
+    font-size: x-large;
+    animation-duration: 1s;
+    animation-name: fadeIn;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes move {
+    0% {left: -100px}
+    100% {left : 10px}
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
