@@ -1,0 +1,43 @@
+#griddy{
+    width: 400px;
+    height: 500px;
+}
+
+#back{
+    background-color: indianred;
+}
+
+#desc{
+    font-size: x-large;
+    font-family: Arial, sans-serif;
+    color: darkred;
+}
+
+#dtR{
+    height: 500px;
+    width: 833px;
+}
+
+#gt{
+    position: absolute;
+    font-family: Arial, sans-serif;
+    font-size: x-large;
+    color: darkred;
+}
+
+#dtT{
+    position: absolute;
+    font-family: Arial, sans-serif;
+    font-size: x-large;
+    color: darkred;
+    left: 420px;
+}
+
+#prev{
+    position: absolute;
+    font-size: x-large;
+    font-family: Arial, sans-serif;
+    top: 620px;
+    left: 10px;
+    color: darkred;
+}
