@@ -1,0 +1,54 @@
+#numBox {
+    position: absolute;
+    top:110px;
+    left: 20px;
+}
+
+#opBox {
+    position: absolute;
+    top:150px;
+    left : 20px;
+}
+
+#numBox2{
+    position: absolute;
+    top:190px;
+    left : 20px;
+}
+
+#calc{
+    position: absolute;
+    top:230px;
+    left: 20px;
+}
+
+#captions{
+    position: absolute;
+    top:75px;
+    left:220px;
+    line-height: 1.7;
+    font-family: Arial, sans-serif;
+    font-size: x-large;
+    color: darkslategray;
+}
+
+#disp{
+    position: absolute;
+    left: 20px;
+    font-family: Arial, sans-serif;
+    font-size: x-large;
+    color: darkslategray;
+}
+
+#instructions{
+    position: absolute;
+    left: 20px;
+    top : 40px;
+    font-family: Arial, sans-serif;
+    font-size: x-large;
+    color: darkslategray;
+}
+
+#back{
+    background-color: lightcyan;
+}

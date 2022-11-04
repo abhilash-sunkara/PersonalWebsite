@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src = ../JS/calcScript.js id = "setter"></script>
+    <link rel = "stylesheet" href="../CSS/CalcPos.css">
+</head>
+<body id = "back">
+    <h1 id = "disp"> Answer goes here </h1>
+    <p id = "instructions"> Enter numbers and operators to calculate </p>
+    <button type="button" id = "calc" onclick=document.getElementById("disp").innerText=calc()>Calculate</button>
+    <label for="numBox"></label><input type="text" id = "numBox">
+    <label for="opBox"></label><input type="text" id = "opBox">
+    <label for="numBox2"></label><input type="text" id = "numBox2">
+    <p id = "captions"> enter number 1 here<br> enter operator here (0 for +, 1 for -, 2 for *, 3 for /) <br> enter number 2 here </p>
+</body>
+</html>
