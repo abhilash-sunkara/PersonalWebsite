@@ -1,0 +1,26 @@
+#display{
+    font-family: Arial, serif;
+    color: darkblue;
+}
+
+#display2{
+    position: absolute;
+    top: 0;
+    left:40px;
+}
+
+#run{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    top: 80px;
+    left:220px;
+    color: orange;
+    font-family: Arial, serif;
+    font-size: x-large;
+}
+
+#instructions{
+    font-family: Arial, serif;
+    color: darkblue;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../JS/ParseScript.js" id = "parser"></script>
+    <link rel="stylesheet" href="../CSS/ParseStyle.css">
+</head>
+<body>
+    <div id = "display">
+      <h1 id = "display1">0</h1>
+      <h1 id = "display2">0</h1>
+    </div>
+    <label for="input"></label><textarea id = "input"></textarea>
+
+    <div id = instructions>
+      <h1 id = "instr1">+ to add, - to subtract</h1>
+      <h1 id = "instr2">* followed by number to multiply</h1>
+      <h1 id = instr3>> to move to right, < to move to left</h1>
+      <h1 id = "instr4">0 to set all to zero</h1>
+    </div>
+
+    <button onclick="parseScript()" id = "run"> Run </button>
+
+</body>
+</html>
